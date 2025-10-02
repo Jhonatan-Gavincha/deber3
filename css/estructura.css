@@ -1,0 +1,109 @@
+.padre{
+    background-color:blanchedalmond;
+    display: grid;
+    grid-gap: 10px; /*Espaciado*/
+    grid-template-columns: 7fr 2fr ;
+    grid-template-rows: 1fr 5fr 1fr;
+}
+.padre .menu{
+    background-color: aliceblue;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.padre .contenido{
+    background-color: aliceblue;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.padre .ads{
+    background-color: aliceblue;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 2px;
+    border: 3px solid burlywood;
+    padding-top: 25%;
+    padding-left:15% ;
+}
+.padre .pie{
+    border-radius: 20px;
+    background-color: aquamarine;
+    text-align: center;
+    grid-column: 1/3;
+    grid-row: 3/4;
+    padding-top: 2px;
+}
+/*------------------------------------------------*/
+img{
+    width: 80px;
+    height: 400px;
+    padding: 20px;
+}
+.parrafo{
+    text-align: center;
+    font-family: 'cursive';
+    color: black;
+}
+.anubis{
+    width: 210px;
+    height: 320px;
+    padding: 12px;
+}
+.texto-anuncio{
+    font-family: Arial;
+
+}
+/*_-------------------------------------historia hallowen--------------------------*/
+.h_h{
+    width: 500px;
+    height: 300px;
+    margin-left: 25%;
+}
+.h_p{
+    font-family: Arial;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+    border-radius: 2px ;
+    border-style: solid;
+    border-color: black;
+}
+/*_------------------------Gastronomia hallowen--------------------------------------*/
+.Gastronomia_hallowen{
+    margin: 50px;
+}
+/*_-------------gastronomia todos santos--------------------------------------------------*/
+.gastronomia_tdo{
+    /*margin-top: 50px;*/
+    margin: 50px;
+    margin-bottom: 0px;
+}
+/*--------------------mesa de ofrendas-------------------*/
+.mesa_de_ofrendas{
+    margin-top: 0%;
+    margin-bottom: 0px;
+}
+/*--------------------historia de todos santos-------------------*/
+.Historia_de_todos_santos{
+    margin-left: 250px;
+
+}
+.img_historia_de_todos{
+    width: 190px;
+    height: 300px;
+}
+/*----------------------costumbre hallowen-------------------------------*/
+.costumbres_hallowen{
+
+    padding-top: 0px;
+    padding: 50px;
+}
+/*----------------------mesa ofrenda------------------------*/
+.mesa_de_ofrendas{
+    margin-top: 0px;
+    padding: 50px;
+}
+.mitos_hallowen{
+    padding: 30px;
+}
